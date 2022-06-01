@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="GetPET_status">
+      <class name="Speed.Logout">
         <methods>
-          <include name="Get_Petbystatus"/>
+          <include name="Logoutt" invocation-numbers="0"/>
         </methods>
-      </class> <!-- GetPET_status -->
+      </class> <!-- Speed.Logout -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
